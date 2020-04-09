@@ -8,7 +8,7 @@ const Character = async () => {
     const { name, image, episode, status, species, gender, origin, location } = character
 
     const view = `
-        <div class="Character-inner">
+        <div class="Characters-inner">
             <article class="Characters-card">
                 <img src="${image}" alt="${name}">
                 <h2>${name}</h2>
